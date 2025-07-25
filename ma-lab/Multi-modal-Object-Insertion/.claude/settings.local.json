@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(git clone:*)",
+      "Bash(pip install:*)",
+      "Bash(conda create:*)",
+      "Bash(where conda)",
+      "Bash(conda:*)",
+      "Bash(echo $PATH)",
+      "Bash(export:*)",
+      "Bash(\"/c/Users/hope7/.conda/envs/multimodal/python.exe\" -m pip install -r requirements.txt)",
+      "Bash(\"/c/Users/hope7/.conda/envs/multimodal/python.exe\" init.py)",
+      "Bash(\"/c/Users/hope7/.conda/envs/multimodal/python.exe\" demo.py)",
+      "Bash(\"/c/Users/hope7/.conda/envs/multimodal/python.exe\" -m pip install matplotlib)",
+      "Bash(\"/c/Users/hope7/.conda/envs/multimodal/python.exe\" -m pip install open3d)",
+      "Bash(\"/c/Users/hope7/.conda/envs/multimodal/python.exe\" -c \"import open3d; print(''Open3D imported successfully'')\")"
+    ],
+    "deny": []
+  }
+}

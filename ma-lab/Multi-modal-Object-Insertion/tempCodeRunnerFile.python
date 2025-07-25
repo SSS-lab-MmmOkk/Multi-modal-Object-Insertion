@@ -1,0 +1,7 @@
+import gymnasium as gym
+
+# 環境の作成
+env = gym.make('CartPole-v1')
+print(f"環境名: {env.spec.id}")
+print(f"行動空間: {env.action_space}")
+print(f"観測空間: {env.observation_space}")

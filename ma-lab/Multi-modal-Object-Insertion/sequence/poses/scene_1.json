@@ -1,0 +1,20 @@
+{
+    "dataset": "KITTI",
+    "task": "tracking",
+    "weather": "sunny",
+    "sequence": 0,
+    "bg_index": 1,
+    "vehicles": [
+        {
+            "obj_index": 1,
+            "location": [
+                3.838178191753366,
+                3.19011473221979,
+                -1.3052174825389808
+            ],
+            "rotation": -12.204771262070242,
+            "scale": 1
+        }
+    ],
+    "nums_vehicles": 1
+}
